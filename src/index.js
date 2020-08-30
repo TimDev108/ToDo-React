@@ -1,15 +1,7 @@
-import React from "react"
-import ReactDOM from 'react-dom'
+import React from 'react';
+import ReactDOM from 'react-dom';
 
+import App from './components/app/App';
 
-const App = () => {
-    return (
-        <div>
-            <h1>Hello React ToDo App</h1>
-            <input placeholder='searchPanel'/>
-        </div>
-    )
-
-}
-
-ReactDOM.render(<App/>, document.getElementById('root'))
+ReactDOM.render(<App />,
+    document.getElementById('root'));
